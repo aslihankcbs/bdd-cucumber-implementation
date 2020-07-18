@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.702 sec <<< FAILURE!
+Correct Register Test(Register Feature)  Time elapsed: 0.563 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\aybukeka\Desktop\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at TestCases.LoginTest.iGoingToTheLoginPage(LoginTest.java:26)
+	at ✽.I'm going to the register page(file:///C:/Projects/bdd-cucumber-implementation/src/test/java/features/Login.feature:4)
+
