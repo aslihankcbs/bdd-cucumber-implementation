@@ -8,7 +8,7 @@ Cucumber kullanımı Features ve Glue Code olarak isimlendirilen iki kısımdan 
 * Feature kısmında bir davranış tanımlanır(Hesaptan para transferinin yapılması, ana sayfanın görüntülenmesi, oturumun açılması vb.). 
 * Scenario kısmında feature da yer alan ister için uygun olan senaryo oluşturuluyor(örneğin hesaptan EFT yapılması)(user story). 
 * Given'da bazı bağlamlar belirtilir.Ön koşulda diyebiliriz. (Hesaplarımın listelendiği sayfadayım veya uygulamaya sahibim/uygulama elimde)
-* When bazı eylemler gerçekleştirileceğinde kullanılır. Yani bir olay belirtiyoruz.(Bir hesabın seçilmesi, ana sayfaya gidelmesi vs.)
+* When bazı eylemler gerçekleştirileceğinde kullanılır. Yani bir olay belirtiyoruz.(Bir hesabın seçilmesi, ana sayfaya gidilmesi vs.)
 * Than kısmında ise olayın sonuçlanması belirtilir. Yani belirli bir gözlemlenebilir sonuç kümesi elde edilir.(Paramı transfer etmek istiyorum butonunu görmeliyiz veya ana sayfaya gidildiğinde welcome başlığını vs. görmeliyiz.)
 
 **BDD vs TDD**
